@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 12: Capitanes del Corazón</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 12: Capitanes del Corazón</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender qué puede hacer la IA (ERD, CDJ).</li>
+                                        <li>Diferenciar entre tareas humanas y tareas de IA: ¿quién lo hace mejor?</li>
+                                        <li>Identificar habilidades humanas únicas: empatía, decisiones con valores, creatividad y colaboración.</li>
+                                        <li>Comprender la importancia de usar la IA como herramienta de ayuda, no como reemplazo.</li>
+                                        <li>Reconocer los beneficios de la IA para ayudar a los humanos, especialmente en tareas complejas o peligrosas.</li>
+                                        <li>Valorar lo que solo los humanos pueden aportar.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Demostración de habilidades humanas únicas (empatía, creatividad) a través de "El Dúo Dinámico", anclado en una rima de poder que celebra la insustituible capacidad del corazón humano.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación Gnius Club: "Teatro Guiado de Emociones".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, Capitanes del Corazón! ❤️ ¡Hoy vamos a usar nuestros superpoderes de actuación! Jugaremos al Teatro Guiado de Emociones. Yo narraré una mini-escena y ustedes, sin hablar, actuarán la reacción. ¡Luces, cámara... acción!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Guía escenas que requieren empatía y creatividad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Primera escena! Un amigo se cae en el recreo y se raspa la rodilla. ¿Qué hacen? ¡Actúen! (Los niños ayudan, consuelan). ¡Hermoso! ¡Siguiente! La maestra les pide que inventen un baile para una canción feliz. ¿Qué hacen? ¡Actúen! 🕺💃 ¡Qué creatividad!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo verbalmente y en grupo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 3. Recuerdo Relámpago: La Fórmula del Super-Equipo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Capitanes! Para dirigir nuestro corazón, primero debemos recordar la primera parte de la fórmula que nos hizo grandes diseñadores. ¿Qué decíamos sobre la IA?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Los niños recitan la frase. Conecta con el tema del día.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Respuesta de los niños: ""¡Para la fuerza y la velocidad, ¡llamo a la IA, es genial!""<br>""¡FÓRMULA CORRECTA! ⚙️ ¡Saben cuándo usar la ayuda de un Super-Asistente! Y hoy descubriremos el poder que es SOLO nuestro, el que ninguna máquina puede tener."""</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión de forma visual y con una metáfora.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta diapositiva 4. Objetivos de la Misión. (Imagen de un niño/a sosteniendo un corazón brillante ❤️, con un robot amigable en el fondo dándole un pulgar arriba 👍).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en CAPITANES DEL CORAZÓN! Un capitán guía con sabiduría, valentía y, lo más importante, ¡con sentimientos! Hoy aprenderemos que, aunque la IA es una herramienta increíble, nuestro corazón es el verdadero tesoro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los niños repiten en coro una frase corta mientras señalan su cabeza (IA) y luego ponen las manos sobre su corazón (humano).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a decirlo con nuestro gesto de capitán! (señala la cabeza, luego el corazón) Nuestra misión es: ¡La IA tiene un chip, pero yo tengo un corazón!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre la IA y la empatía.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 5. Brain Boost: Storytelling. (Imagen de una niña, Maya, y su robot asistente, Giga).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Maya y su robot Giga. Un día, Maya estaba muy triste porque su hámster, Pelusa, estaba enfermo. Le preguntó a Giga: '¿Qué puedo hacer para sentirme mejor?'. Giga, que es muy inteligente, buscó en toda la red y respondió: 'Los datos indican que comer un plátano aumenta la felicidad en un 12%.'</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 6. Pregunta Provocadora.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Maya siguió triste. Giga le dio la respuesta más inteligente y lógica, pero... ¿era la respuesta que el corazón de Maya necesitaba en ese momento? ¿Qué le habría dicho o hecho un amigo humano en lugar de Giga?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! Un amigo le habría dado un abrazo, le habría dicho 'te entiendo' o simplemente se habría sentado a su lado. ¡Ese es el poder del corazón! Es algo que no se puede programar. ¡Hoy vamos a celebrar ese superpoder!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Conectar la historia y guiar a los estudiantes en la plataforma.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyecta diapositiva 7. Gamer Express: Activación Plataforma y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Asombroso, Capitanes! Esa historia nos muestra el poder del corazón. Ahora vamos a la sala de simulación de Gnius Club a practicar. 🚀 ¡Es hora del Gamer Express! Entren y jueguen el reto. Descubran qué tesoros son solo nuestros. ¡Guarden el tesoro más valioso en su memoria! ¡Adelante!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir la dinámica de forma teatral y colaborativa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 8. Challenge: El Dúo Dinámico.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Capitanes, luces, cámara, acción! 🎬 ¡Llegó el reto El Dúo Dinámico! Vamos a resolver problemas como un verdadero equipo. Yo proyectaré una misión. La mitad de la clase actuará la solución como un Super-Asistente IA (con movimientos de robot 🤖). La otra mitad, como un Humano con Corazón (con gestos y emociones ❤️). ¡Vamos a ver qué solución es la mejor para cada misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Misión 1: La Torre Caída ⏰ 3 minutos</h3>
+                            <p>Proyecta diapositiva 9. Misión 1: La Torre Caída</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""¡Primera misión, equipo! ¡Silencio en el set! Miren a Álex. Pasó toda la mañana construyendo la torre más alta y espectacular que jamás había hecho. Estaba a punto de poner el último bloque... cuando, ¡CRASH! 💥, todo se derrumbó. Álex está sentado, con los hombros caídos y una lagrimita en el ojo. <br>¡Equipo IA, acción! 🤖 ¿Cómo ayudarían a Álex? (Los niños IA podrían actuar mostrando un plano para una torre más fuerte, o calculando la probabilidad de caída, o diciendo ""Error en la construcción""). ¡Corte!<br>¡Equipo Corazón, acción! ❤️ ¿Y ustedes, cómo ayudarían a Álex en este momento? (Los niños Corazón actúan sentándose a su lado, poniendo una mano en su hombro, diciendo ""no te preocupes"", o empezando a recoger los bloques para ayudarle a reconstruir). ¡Y... escena! ¡Fantástico! ¿Qué solución creen que hizo sentir mejor el corazón de Álex?"""</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Misión 2: El Misterio del Planeta Perdido ⏰ 3 minutos</h3>
+                            <p>Proyecta diapositiva 10. Misión 2: El Misterio del Planeta Perdido</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""¡Segunda misión, prepárense! Lía está haciendo una tarea sobre el espacio. ¡Le encanta! Pero hay una pregunta que no encuentra en ningún libro: '¿De qué color es la montaña más alta del planeta Zorb?' ¡Necesita la respuesta súper rápido para ganar una estrella dorada! 🌟<br>¡Equipo Corazón, acción! ❤️ ¿Cómo ayudarían a Lía? (Los niños Corazón podrían actuar buscando en el libro con ella, dibujando cómo se imaginan el planeta, o diciéndole ""no te preocupes, lo importante es intentar""). ¡Corte!<br>¡Equipo IA, acción! 🤖 ¿Y ustedes, cómo ayudarían a Lía a encontrar la respuesta? (Los niños IA actúan tecleando a velocidad luz, escaneando el libro con ojos de robot y proyectando la respuesta ""¡Color morado!"" en una pantalla imaginaria). ¡Y... escena! ¡Increíble! Para ganar la estrella dorada, ¿qué solución fue más útil y rápida?"""</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Revisión en Grupo ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 10. Revisión Grupal.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Bravo, qué actores tan geniales! Hemos descubierto algo increíble. Para problemas de datos y velocidad, ¿quién es el mejor? ¡La IA! Pero para problemas del corazón, como la tristeza o la amistad, ¿quién tiene el verdadero superpoder? ¡NOSOTROS! ¡El corazón humano!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Misión espectacular, Capitanes del Corazón! Han demostrado una sabiduría increíble. Una última pregunta: ¿Cuál es el superpoder más, más, más importante que nunca podrá tener un robot?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Los niños responden (amor, abrazos, amistad). Resume en una frase final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Esa es la verdad más grande del universo! Para que ese poder se quede siempre con ustedes, nuestra nueva Clave Secreta es como un juramento...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta diapositiva 12. Grabar y Repetir la Clave Secreta.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""La IA es veloz, la IA es genial, ¡pero mi corazón es lo más especial! ❤️<br>¡Vamos a decirla con la mano en la cabeza... y ahora con la mano en el corazón! ¡Fantástico! Guarden esta fórmula, es el secreto de los mejores equipos. ¡Nos vemos! 🎉"""</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
